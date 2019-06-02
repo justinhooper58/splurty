@@ -1,5 +1,7 @@
 @import "bootstrap";
 
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 .clear {
   clear: both;
 }
@@ -44,6 +46,18 @@ header {
   border-top: 9px solid #222222;
 }
 
-hr{
+hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
