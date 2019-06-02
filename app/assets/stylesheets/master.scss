@@ -1,10 +1,12 @@
 @import "bootstrap";
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-
 .clear {
   clear: both;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
 
 .circle {
     font-weight: bold;
@@ -22,8 +24,8 @@
     line-height: 16px;
     cursor: pointer;
     transform: rotate(11deg);
-    -ms-transform: rotate(11deg); /* IE 9 */
-    -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Opera, Chrome, and Safari */
 }
 
 .slogan {
@@ -73,4 +75,8 @@ h2 {
   font-style: italic;
   text-align: right;
   font-size: 10px;
+}
+
+.logo:hover {
+  text-decoration: none;
 }
