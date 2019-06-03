@@ -35,12 +35,21 @@
     <hr />
 
     <br class="clear" />
-
-      <%= yield %>
     
 
+    <div class="container">
+      <% if flash[:error].present? %>
+        <div class="alert alert-danger">
+          <%= flash[:error].html_safe %>
+        </div>
+      <% end %>
+      <%= yield %>
+    </div>
+        
+      
+
       <div class="footer">
-        <div class="container">
+
           <div class="row">
             <div class="col-6">
               <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
